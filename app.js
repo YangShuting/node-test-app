@@ -5,6 +5,6 @@ app.get('/', function(req, res){
   res.send('Hello World');
 });
 
-var server = app.listen(4000, function(){
+var server = app.listen(5000, function(){
   console.log('Magic is happening on port 3000')
 });
